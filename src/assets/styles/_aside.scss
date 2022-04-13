@@ -1,0 +1,71 @@
+.aside_wrap {
+    width: 245px;
+    height: 1000px;
+    background: #000;
+    color: #fff;
+    border-right: 2px solid #1a1a1a;
+    padding: 0 20px 0 20px;
+    font-family: 'TwayFly';
+}
+.logo {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #1a1a1a;
+
+    b {
+        font-family: "SuseongHyejeong";
+    }
+}
+
+.user {
+    margin: 10px 0 0 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    border-bottom: 1px solid #1a1a1a;
+    
+
+    p {
+        font-size: 14px;
+    }
+}
+.menu {
+    margin: 30px 0 0 10px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #1a1a1a;
+    
+    li {
+        margin-top: 10px;
+        display: flex;
+
+        img {
+            width: 21px;height: 21px;
+            vertical-align: -3px;
+            margin-right: 5px;
+        }
+    }
+
+}
+.playlist {
+    margin: 30px 0 0 10px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #1a1a1a;
+
+    li {
+        margin-top: 10px;
+        color: rgb(224, 221, 221);
+    }
+}
+.desc {
+    margin: 30px 0 0 10px;
+    
+    li {
+        font-size: 14px;
+        margin-top: 10px;
+        color: rgb(141, 141, 141);
+    }
+}

@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import Main from "./components/pages/Main";
+import TodayMusic from "./components/pages/TodayMusic";
+import IntroMusic from "./components/pages/IntroMusic";
+import PopularMusic from "./components/pages/PopularMusic";
+import IntroAlbum from "./components/pages/IntroAlbum";
+import TopMusic from "./components/pages/TopMusic";
+import MyMusic from "./components/pages/MyMusic";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route path="/" exact component={Main} />
+      <Route path="/todayMusic" exact component={TodayMusic} />
+      <Route path="/introMusic" exact component={IntroMusic} />
+      <Route path="/popularMusic" exact component={PopularMusic} />
+      <Route path="/introAlbum" exact component={IntroAlbum} />
+      <Route path="/yopMusic" exact component={TopMusic} />
+      <Route path="/myMusic" exact component={MyMusic} />
+    </Router>
   );
 }
 
